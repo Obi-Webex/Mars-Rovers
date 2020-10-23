@@ -1,0 +1,57 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ .icon-block {
+    padding: 0 15px;
+  }
+  .icon-block .material-icons {
+      font-size: inherit;
+  }
+
+  body{
+    background-image: url('../space.jpg');
+  }
+
+ .row a{
+   margin: 10px 10px -30px 10px;
+   border-radius: 4px;
+   font-weight: bold;
+ }
+
+ h2 {
+   font-size: 2.2rem;
+   font-weight: bold;
+ }
+
+ h4 {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.slider{
+  display: none;
+}
+
+@media only screen and (max-width:480px){
+  #but1, #but2, #but3{
+    display: flex;
+    margin: 15px auto;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+      }
+
+      h4{
+        margin-bottom: 25px;
+      }
+
+      .slider{
+        margin-top: 5px;
+       
+      }
+} 
